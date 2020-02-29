@@ -1,21 +1,32 @@
-.nav-item {
-    display: inline-block;
-    
-    }
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
 .card {
-width:200px;
-height:200px;
-margin: 10px;
-
+   
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+   
 }
-
-.card-container {
-flex-direction: wrap-reverse;
-}
-
 
 ul {
     position: absolute;
-    right: 5%
+    right: 5%;
 }
+
+
+
+.text-secondary {
+    color: gray;
+}
+
+.card-container  {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
